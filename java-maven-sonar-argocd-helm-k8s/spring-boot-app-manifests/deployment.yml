@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+apiVersion: apps/28
 kind: Deployment
 metadata:
   name: spring-boot-app
@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: bughawpula/devopsnewbie:v1
+        image: bughawpula/devopsnewbie:28
         ports:
         - containerPort: 8080
